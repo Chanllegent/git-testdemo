@@ -2,6 +2,7 @@ public class Person {
     private String name;
     private String sex;
     private String address;
+    private final String index = "Candy";
 
     public Person(String name, String sex, String address) {
         this.name = name;
